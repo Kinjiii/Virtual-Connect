@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/txt_personalDetails"
+        android:layout_width="288dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:text="Personal Details"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#131212"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img_Logo"
+        android:layout_width="80dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/opsc_icon_white_background_v2" />
+
+    <EditText
+        android:id="@+id/et_Name"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:background="#CACAC8"
+        android:ems="10"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_personalDetails"
+        tools:ignore="MissingConstraints"
+        />
+
+    <EditText
+        android:id="@+id/et_Age"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:background="#CACAC8"
+        android:ems="10"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:hint="Age"
+        android:inputType="number"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_Name"
+        tools:ignore="MissingConstraints"
+        />
+
+    <EditText
+        android:id="@+id/et_emailAddress"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="#CACAC8"
+        android:ems="10"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_Age"
+        tools:ignore="MissingConstraints"
+        />
+
+    <EditText
+        android:id="@+id/et_Password"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="#CACAC8"
+        android:drawableEnd="@drawable/ic_baseline_visibility_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_emailAddress"
+        tools:ignore="MissingConstraints"
+        />
+
+
+    <EditText
+        android:id="@+id/et_confirmPassword"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="#CACAC8"
+        android:drawableEnd="@drawable/ic_baseline_visibility_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_Password"
+        tools:ignore="MissingConstraints"
+        />
+
+    <CheckBox
+        android:id="@+id/cbx_AgreeToTerms"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:text="I agree all statements in Terms of Service"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_confirmPassword"
+        tools:ignore="MissingConstraints"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mb_signUp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Purple"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:text="Sign Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbx_AgreeToTerms"
+        tools:ignore="MissingConstraints"
+        />
+
+    <ProgressBar
+        android:id="@+id/pb_registerLoading"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:indeterminateDrawable="@drawable/progressbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

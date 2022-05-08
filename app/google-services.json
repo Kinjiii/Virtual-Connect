@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "268667480433",
+    "firebase_url": "https://opsc-virtual-connect-k-default-rtdb.firebaseio.com",
+    "project_id": "opsc-virtual-connect-k",
+    "storage_bucket": "opsc-virtual-connect-k.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268667480433:android:e3b95612e256b38bef2ed0",
+        "android_client_info": {
+          "package_name": "com.varsitycollege.opscproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268667480433-j9u2pv1v1ihv2l1557e76dm7ugh2hqte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdj_-JM1oH-L0GYByzPIwE56L9-mpnSvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268667480433-j9u2pv1v1ihv2l1557e76dm7ugh2hqte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268667480433:android:1554a13863169fd4ef2ed0",
+        "android_client_info": {
+          "package_name": "com.varsitycollege.virtualconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268667480433-j9u2pv1v1ihv2l1557e76dm7ugh2hqte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdj_-JM1oH-L0GYByzPIwE56L9-mpnSvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268667480433-j9u2pv1v1ihv2l1557e76dm7ugh2hqte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

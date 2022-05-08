@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_MainLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171"
+        app:srcCompat="@drawable/opsc_icon_white_background" />
+
+    <TextView
+        android:id="@+id/txt_Welcome"
+        android:layout_width="206dp"
+        android:layout_height="37dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:text="Welcome to "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#131212"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="31dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_Intro"
+        android:layout_width="380dp"
+        android:layout_height="199dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:text="All your collections in one virtual place. Available on the go and offline. Ready to organize your life?"
+        android:textAllCaps="true"
+        android:textColor="#131212"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="473dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_Continue"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:text="Continue"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#131212"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_MainLogo"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
